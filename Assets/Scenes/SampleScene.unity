@@ -1087,6 +1087,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5be33584b16126c41a0c6084088f2bbf, type: 3}
   m_PrefabInstance: {fileID: 1974884149}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2033264666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 51a31cdd776ca5144a4d3c95354d7fe9, type: 3}
+  m_PrefabInstance: {fileID: 681902757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2033264667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033264666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0035aa09492ca42b28fcfbdbbe9d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &382637433792039828
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1932,6 +1949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7900021275113662916}
+  - component: {fileID: 7415550426199487359}
   m_Layer: 0
   m_Name: Leg Piece
   m_TagString: Untagged
@@ -1939,6 +1957,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7415550426199487359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415550426199487358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a4a8acec4c6d043a6ef36cd1a27f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!33 &7739060636196795031
 MeshFilter:
   m_ObjectHideFlags: 0
